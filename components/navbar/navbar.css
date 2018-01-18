@@ -1,7 +1,7 @@
 html,body{
     width: 100 vw;
     height: 100 vh;
-};
+}
 
 *{
     margin: 0;
@@ -10,7 +10,31 @@ html,body{
     font-family: helvetica;
 }
 
+.cabecalho__nav{
+     display: flex;
+     padding: 5px;
+     justify-content: space-between;
+     align-items: center;
+     background-color:#FFBB00;
+}
 
-.cabecalho{
-    background-color: FFBB00;
+.cabecalho__nav__menu, .cabecalho__nav__logo, .cabecalho__nav__pesquisa .cabecalho__nav__contatos {
+    display: flex;
+}
+
+.cabecalho__nav__menu-barra{
+    padding: 0 15px;
+    color: black;
+    
+}
+
+.cabecalho__nav__contatos-icones{
+    padding: 0 15px;
+    color: black;
+}
+
+.pesquisar{
+    width: 600px;
+    height: 40px;
+    background-color:#FFBB00;
 }
