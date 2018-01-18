@@ -13,7 +13,6 @@ html, body{
 /*PADRÃO DO SITE*/
 body{
     font-family: Helvetica;
-    margin: 40px;
 }
 
 /*FORM*/
@@ -22,6 +21,7 @@ body{
     border-radius: 5px;
     position: relative;
     padding: 15px;
+    margin: 10px 0;
 }
 .form-nome{
     position: absolute;
@@ -36,13 +36,19 @@ body{
 .form__entrada-titulo{
     width: 90%;
     margin: 5px auto;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 30px;
+    width: 100%;
+    margin: 0 auto;
 }
 .itens{
     border: 1px solid black;
     border-radius: 5px;
     position: relative;
     padding: 15px;
-    margin: 10px 0;
+    margin: 15px 0;
 }
 .itens-nome{
     position: absolute;
@@ -50,4 +56,9 @@ body{
     left: 10px;
     text-transform: uppercase;
     background: white;
+}
+.itens__adicionar{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0px 4px 0px 4px;;
 }
