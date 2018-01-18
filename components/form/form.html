@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="../input.css">
     <link rel="stylesheet" href="form.css">
     <title>Form</title>
 </head>
@@ -14,9 +17,12 @@
         <input class="form__entrada-titulo" type="text">
         <div class="itens">
             <p class="itens-nome">Itens</p>
-            <buttom class="itens__adicionar">+</buttom>
+            <buttom type="submit" class="itens__adicionar" onclick="adicionarItem()">+</buttom>
+            <div id="novo-item"></div>
+            <!-- importar input-->
             <!-- botoes importados da europa -->
         </div>
     </div>
+    <script src="form.js"></script>
 </body>
 </html>
