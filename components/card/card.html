@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS NOTES </title>
+    <link rel="stylesheet" href="card.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <!--<section class="card__section">
+        <article class="card">
+            <h4 class="card__titulo">Code XP</h4>
+            <p class="card__texto">Estudar JavaScript </p>
+            <p class="card__icons">
+                <i class="card__icon fa fa-apple" aria-hidden="true"></i>
+                <i class="card__icon fa fa-android" aria-hidden="true"></i>
+                <i class="card__icon fa fa-chrome" aria-hidden="true"></i>
+                <a class="card__icon-link" href="#"><i class="card__icon fa fa-times" aria-hidden="true"></i></a>
+            </p>
+        </article>
+    </section>-->
+    
+     <form class="note">
+            <input class="note__title" type="text" name="title" placeholder="Título" autofocus>
+            <textarea class="note__texto" name="texto" rows="5" placeholder="Criar uma nota..."></textarea>
+            <button class="note__control" type="button" onclick="onDoneClick(this.form, this.form.nextElementSibling, this.form.title, this.form.body)">
+                Concluído
+            </button>
+     </form>
+
+     <section class="notes"></section>
+
+     <script src="card.js"></script>
+</body>
+</html>
