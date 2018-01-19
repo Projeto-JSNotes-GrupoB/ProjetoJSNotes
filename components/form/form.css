@@ -1,0 +1,64 @@
+/*RESET*/
+html, body{
+    width: 100vw;
+    height: 100vh;
+}
+*{  
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    vertical-align: top;
+}
+
+/*PADRÃO DO SITE*/
+body{
+    font-family: Helvetica;
+}
+
+/*FORM*/
+.form{
+    border: 1px solid black;
+    border-radius: 5px;
+    position: relative;
+    padding: 15px;
+    margin: 10px 0;
+}
+.form-nome{
+    position: absolute;
+    top:-9px;
+    left: 10px;
+    background: white;
+    text-transform: uppercase;
+}
+.form__titulo{
+    text-transform: uppercase;
+}
+.form__entrada-titulo{
+    width: 90%;
+    margin: 5px auto;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 30px;
+    width: 100%;
+    margin: 0 auto;
+}
+.itens{
+    border: 1px solid black;
+    border-radius: 5px;
+    position: relative;
+    padding: 15px;
+    margin: 15px 0;
+}
+.itens-nome{
+    position: absolute;
+    top:-9px;
+    left: 10px;
+    text-transform: uppercase;
+    background: white;
+}
+.itens__adicionar{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0px 4px 0px 4px;;
+}

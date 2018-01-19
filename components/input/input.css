@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    background-color: #e8e8e8;
+}
+.additional-items{
+    height: 40px;
+}
+
+.additional-item1{
+    display: inline-block;
+    width: 10%;
+    margin-right: -4px;
+    padding: 5px;
+}
+
+.additional-item2{
+    display: inline-block;
+    width: 85%;
+    margin-right: -4px;
+    padding: 5px;
+}
+
+.additional-item3{
+    display: inline-block;
+    width: 5%;
+    margin-right: -4px;
+    padding: 5px;
+}
+#itemAdditional{
+    width: 95%;
+    background-color: white;
+}
